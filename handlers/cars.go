@@ -5,9 +5,9 @@ import (
 	"net/http"
 
 	"github.com/gorilla/mux"
-	"github.com/sikozonpc/fullstackgo/components"
-	"github.com/sikozonpc/fullstackgo/types"
-	"github.com/sikozonpc/fullstackgo/views"
+	"github.com/stevevandermerwe/fullstackgo/components"
+	"github.com/stevevandermerwe/fullstackgo/types"
+	"github.com/stevevandermerwe/fullstackgo/views"
 )
 
 func (h *Handler) HandleListCars(w http.ResponseWriter, r *http.Request) {

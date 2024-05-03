@@ -8,8 +8,8 @@ import (
 
 	"github.com/go-sql-driver/mysql"
 	"github.com/gorilla/mux"
-	"github.com/sikozonpc/fullstackgo/handlers"
-	"github.com/sikozonpc/fullstackgo/store"
+	"github.com/stevevandermerwe/fullstackgo/handlers"
+	"github.com/stevevandermerwe/fullstackgo/store"
 )
 
 func main() {

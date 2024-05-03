@@ -1,7 +1,7 @@
 package handlers
 
 import (
-	"github.com/sikozonpc/fullstackgo/store"
+	"github.com/stevevandermerwe/fullstackgo/store"
 )
 
 type Handler struct {
@@ -10,6 +10,6 @@ type Handler struct {
 
 func New(store *store.Storage) *Handler {
 	return &Handler{
-		store: 		store,
+		store: store,
 	}
 }

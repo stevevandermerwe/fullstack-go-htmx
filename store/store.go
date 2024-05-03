@@ -3,7 +3,7 @@ package store
 import (
 	"database/sql"
 
-	"github.com/sikozonpc/fullstackgo/types"
+	"github.com/stevevandermerwe/fullstackgo/types"
 )
 
 type Storage struct {

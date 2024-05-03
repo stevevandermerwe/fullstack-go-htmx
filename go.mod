@@ -1,4 +1,5 @@
-module github.com/sikozonpc/fullstackgo
+module github.com/stevevandermerwe/fullstackgo
+
 
 go 1.21.7
 
