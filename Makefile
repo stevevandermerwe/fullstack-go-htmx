@@ -1,11 +1,11 @@
 build:
-	tailwindcss -i public/css/styles.css -o public/styles.css
+	tailwindcss -i views/css/styles.css -o public/styles.css
 	@templ generate view
-	@go build -o bin/fullstackgo main.go 
+	@go build -o bin/fullstackgo main.go
 
 test:
 	@go test -v ./...
-	
+
 run: build
 	@./bin/fullstackgo
 
